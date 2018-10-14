@@ -1,0 +1,45 @@
+body {
+	background-color: #F4F9F9;
+	text-align: center;
+}
+
+main {
+	background-color: #000;
+	padding: 20px 0;
+}
+
+.center-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bs-element {
+	border: 1px solid black;
+}
+
+.grid-element {
+	background-color: #FBFB9B;
+	height: 100px;
+	margin: 5px 0;
+	text-align: center;
+}
+
+.text-box {
+	background-color: black;
+	border: 1px solid #FBFB9B;
+	color: #FBFB9B;
+	height: 100px;
+	width: 100%;
+	position: relative;
+	top: -7px;
+	left: -7px;
+	transition: 250ms;
+}
+
+.text-box:hover {
+	border: double;
+	top: 0px;
+	left: 0px;	
+}
+
